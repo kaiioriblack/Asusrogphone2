@@ -43,3 +43,5 @@ Tesy
 
 
 
+<font color="green"> Some green text </font>
+<span style="color: green"> Some green text </span>
