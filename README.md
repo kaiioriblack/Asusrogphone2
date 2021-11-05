@@ -1,7 +1,6 @@
 <img src="https://img.shields.io/badge/Version-2.6-blue"/> <img src="https://img.shields.io/badge/Root-Magisk-green"/> <img src="https://img.shields.io/badge/Forum-Xda--developers%20-orange"/>
-##### :package: Custom Installer script for asus rog phone 2
 
-##### :mag_right: Changelog
+##### :mag_right: Dalvik configuration
 ```
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapsize=512m
