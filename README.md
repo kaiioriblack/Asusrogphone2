@@ -2,11 +2,11 @@
 
 ##### :mag_right: Dalvik configuration
 ```
-dalvik.vm.heapstartsize=8m
+dalvik.vm.heapstartsize=10m
 dalvik.vm.heapsize=512m
 dalvik.vm.heapgrowthlimit=256m
 dalvik.vm.heaptargetutilization=0.50
-dalvik.vm.heapminfree=2m
-dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=4m
+dalvik.vm.heapmaxfree=16m
 
 ```
