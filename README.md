@@ -1,12 +1,13 @@
-<img src="https://img.shields.io/badge/Version-2.6-blue"/> <img src="https://img.shields.io/badge/Root-Magisk-green"/> <img src="https://img.shields.io/badge/Forum-Xda--developers%20-orange"/>
+<img src="https://img.shields.io/badge/Asus%20rog%20phone%20-2%20-red"/> <img src="https://img.shields.io/badge/Root-Magisk-green"/> <img src="https://img.shields.io/badge/Forum-Xda--developers%20-orange"/>
 
-##### :mag_right: Dalvik configuration
+##### :iphone: Dalvik setup for the Asus rog phone 2
+##### Run in the Android terminal so that the changes are applied without the need to edit the files and save the changes to your device
 ```
-dalvik.vm.heapstartsize=10m
-dalvik.vm.heapsize=512m
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heaptargetutilization=0.50
-dalvik.vm.heapminfree=4m
-dalvik.vm.heapmaxfree=16m
+setprop dalvik.vm.heapstartsize 10m
+setprop dalvik.vm.heaptargetutilization 0.50
+setprop dalvik.vm.heapminfree 4m
+setprop dalvik.vm.heapmaxfree 16m
+```
 
-```
+
+
